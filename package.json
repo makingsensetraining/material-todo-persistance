@@ -1,0 +1,18 @@
+{
+  "name": "material-todo-persistance",
+  "description": "A starter project for AngularJS and Material Design",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "*",
+    "bower": "*",
+    "express": "*",
+    "mongoose": "*",
+    "uuid": "^2.0.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}
