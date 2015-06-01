@@ -3,13 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "angular": "^1.3.15",
-    "angular-animate": "v1.3.15",
-    "angular-aria": "^1.3.15",
+    "angular": "~1.3.x",
+    "angular-animate": "~1.3.x",
+    "angular-aria": "~1.3.x",
     "angular-material": "^0.8.3",
     "underscore": "*"
   },
   "devDependencies": {
     "angular-material": "~0.8.3"
+  },
+  "resolutions": {
+    "angular": "~1.3.x"
   }
 }
