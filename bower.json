@@ -11,5 +11,9 @@
   },
   "devDependencies": {
     "angular-material": "~0.8.3"
+  },
+  "scripts": {
+    "install-windows-service": "winser -i",
+    "uninstall-windows-service": "winser -r"
   }
 }
