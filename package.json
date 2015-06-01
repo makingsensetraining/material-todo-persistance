@@ -7,6 +7,7 @@
     "bower": "*",
     "express": "*",
     "mongoose": "*",
+    "winser": "*",
     "uuid": "^2.0.1"
   },
   "engines": {
