@@ -13,6 +13,8 @@
     "node": "0.10.x"
   },
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "install-windows-service": "winser -i",
+    "uninstall-windows-service": "winser -r"
   }
 }
