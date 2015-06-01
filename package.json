@@ -15,7 +15,7 @@
   },
   "scripts": {
     "postinstall": "bower install",
-    "install-windows-service": "winser -i",
-    "uninstall-windows-service": "winser -r"
+    "install-windows-service": "winser -i -a -s",
+    "uninstall-windows-service": "winser -r -x -s"
   }
 }
