@@ -7,12 +7,15 @@
     "bower": "*",
     "express": "*",
     "mongoose": "*",
+    "winser": "*",
     "uuid": "^2.0.1"
   },
   "engines": {
     "node": "0.10.x"
   },
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "install-windows-service": "winser -i -a -s",
+    "uninstall-windows-service": "winser -r -x -s"
   }
 }
